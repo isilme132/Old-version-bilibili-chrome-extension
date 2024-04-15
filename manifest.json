@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Old version bilibili",
+  "version": "1.0",
+  "description": "modify user-agent info to use old version bilibili",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.bilibili.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "32": "favicon.ico",
+      "128": "images.png"
+    }
+  },
+  "icons": {
+    "32": "favicon.ico",
+    "128": "images.png"
+  }
+}
